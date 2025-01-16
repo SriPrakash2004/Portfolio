@@ -1,0 +1,247 @@
+
+* {
+     font-family: "Roboto", sans-serif;
+ }
+
+ .hero-section {
+     background-image: url('./img/banner/portfolio.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 200px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+ }
+
+
+ .navbar {
+     backdrop-filter: blur(50px);
+     opacity: 0.9;
+ }
+
+
+ .navbar-nav{
+    margin-left: 20%;
+    width: 90%;
+ }
+
+ .btn-download-items{
+    background-color: #2E073F;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    width: 150px;
+    text-align: center;
+ }
+
+ .profile-image-hero{
+    width: 50%;
+    height:  50%;
+    border-top-right-radius: 130%;
+    border-top-left-radius: 50%;
+    margin: 0;
+    opacity: 0.7;
+ }
+
+.banner-btn{
+   width: 200px;
+   padding: 10px;
+   border: 2px solid whitesmoke;
+   border-radius: 10px;
+}
+
+
+ .hero-section-img{
+   margin-top: 10%;
+ }
+
+ .about-btn{
+   background-color: blue;
+   border-radius: 2px;
+   width: 25%;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .about-btn:hover{
+   background-color: green;
+   transition: 0.5s;
+   color: white;
+ }
+
+
+
+ .skills{
+   width: auto;
+   margin: 20px auto;
+   color: white;
+   padding: 20px;
+   /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba( 0, 0, 0, 0.22); */
+}
+.skill-list{
+   margin:  0;
+}
+
+.bar{
+   background: #353b48;
+   display: block;
+   /* padding: 10px; */
+   height: 18px;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba( 0, 0, 0, 0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,.1);
+   display: flex;
+   align-items: center;
+}
+.bar span{
+   height: 18px;
+   float: left;
+   background: #FF00FF;
+
+}
+.html{
+   width: 90%;
+   animation: html 3s;
+
+}
+.css{
+   width: 70%;
+   animation: css 3s;
+}
+.js{
+   width: 60%;
+   animation: js 3s;
+}
+.java{
+   width: 70%;
+   animation: java 3s;
+}
+.c-c{
+   width: 70%;
+   animation: c-c 3s;
+}
+
+.boot{
+   width: 80%;
+   animation: boot 3s;
+}
+
+.react{
+   width: 50%;
+   animation: react 3s;
+}
+
+.sql{
+   width: 70%;
+   animation: sql 3s;
+}
+
+
+.bar:hover{
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 2px rgb(212, 190, 228);
+}
+
+.skill-heading{
+   margin: 5px;
+}
+
+.skill-list{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.skills-percentage{
+   margin-left: 90%;
+}
+
+
+@keyframes html{
+   0%{
+       width: 0%;
+   }
+   100%{
+       width: 90%;
+   }
+}
+@keyframes css{
+   0%{
+       width: 0%;
+   }
+   100%{
+       width: 70%;
+   }
+}
+@keyframes js{
+   0%{
+       width: 0%;
+   }
+   100%{
+       width: 60%;
+   }
+}
+@keyframes java{
+   0%{
+       width: 0%;
+   }
+   100%{
+       width: 70%;
+   }
+}
+@keyframes c-c{
+   0%{
+       width: 0%;
+   }
+   100%{
+       width: 70%;
+   }
+}
+
+@keyframes react {
+   0%{
+      width: 0%;
+   }
+   100%{
+      width: 50%;
+   }
+}
+
+@keyframes sql {
+   0%{
+      width: 0%;
+   }
+   100%{
+      width: 70%;
+   }
+}
+
+@keyframes boot {
+   0%{
+      width: 0%;
+   }
+   100%{
+      width: 80%;
+   }
+}
+
+
+.social-icons {
+   width: 38px;
+   height: 38px;
+   margin-left: 20px;
+}
+
+.text-color {
+   color: white;
+}
+
+
+.skills-page-overlay{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+/* Color code : #2E073F */
